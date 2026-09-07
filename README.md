@@ -46,13 +46,13 @@ Building Luxe helped me gain hands-on experience with the following React concep
 
 ## 🛠️ Tech Stack
 
-| Technology | Purpose |
-|------------|---------|
-| **React.js** | Core library for building the UI |
-| **React Router DOM** | Client-side routing and navigation |
-| **Bootstrap** | Responsive styling and UI components |
-| **JavaScript (ES6+)** | Application logic |
-| **HTML5 / CSS3** | Markup and custom styling |
+| Technology            | Purpose                              |
+| --------------------- | ------------------------------------ |
+| **React.js**          | Core library for building the UI     |
+| **React Router DOM**  | Client-side routing and navigation   |
+| **Bootstrap**         | Responsive styling and UI components |
+| **JavaScript (ES6+)** | Application logic                    |
+| **HTML5 / CSS3**      | Markup and custom styling            |
 
 ---
 
@@ -120,7 +120,7 @@ luxe/
 └── README.md
 ```
 
-> *Note: Update this structure to match your actual folder layout before publishing.*
+> _Note: Update this structure to match your actual folder layout before publishing._
 
 ---
 
@@ -129,17 +129,20 @@ luxe/
 Follow these steps to run the project locally:
 
 ### 1. Clone the repository
+
 ```bash
 git clone https://github.com/your-username/luxe.git
 cd luxe
 ```
 
 ### 2. Install dependencies
+
 ```bash
 npm install
 ```
 
 ### 3. Run the development server
+
 ```bash
 npm start
 ```
@@ -150,14 +153,14 @@ The app will run at `http://localhost:3000`
 
 ## 🖼️ Screenshots
 
-![Home Page](./ScreenShorts/home.png)
-![Hero Page](./ScreenShorts/hero.png)
-![Products Page](./ScreenShorts/Products.png)
-![ProductDetails Page](./ScreenShorts/ProductDetailsPage.png)
-![order Page](./ScreenShorts/ContactPage.png)
-![Cart Page](./ScreenShorts/CartPage.png)
-![contact page](./ScreenShorts/contact.png)
-![order confirm page](./ScreenShorts/OrderConfirmPage.png)
+![Home Page](./src/ScreenShorts/home.png)
+![Hero Page](./src/ScreenShorts/hero.png)
+![Products Page](./src/ScreenShorts/products.png)
+![ProductDetails Page](./src/ScreenShorts/ProductDetailsPage.png)
+![Order Page](./src/ScreenShorts/OrderPage.png)
+![Cart Page](./src/ScreenShorts/CartPage.png)
+![Contact Page](./src/ScreenShorts/contact.png)
+![Order Confirmation Page](./src/ScreenShorts/OrderConfirmPage.png)
 
 ---
 
