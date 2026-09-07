@@ -1,0 +1,35 @@
+.terms-page-wrapper {
+  background-color: #ffffff;
+  color: #333333;
+  min-height: 80vh;
+}
+
+.letter-spacing-wide {
+  letter-spacing: 2px;
+}
+
+.breadcrumb-item + .breadcrumb-item::before {
+  content: ">";
+  color: #6c757d;
+}
+
+.breadcrumb-item.active {
+  color: #333333;
+}
+
+.line-height-large {
+  line-height: 1.8;
+}
+
+.policy-section {
+  background: #f8f9fa;
+  padding: 30px;
+  border-radius: 8px;
+  border-left: 4px solid #111;
+}
+
+@media (max-width: 768px) {
+  .policy-section {
+    padding: 20px;
+  }
+}

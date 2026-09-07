@@ -1,0 +1,64 @@
+/* Contact Page Specific Styles */
+.contact-page-wrapper {
+  background-color: #ffffff;
+  color: #333333;
+  min-height: 80vh;
+}
+
+.letter-spacing-wide {
+  letter-spacing: 2px;
+}
+
+.breadcrumb-item + .breadcrumb-item::before {
+  content: ">";
+  color: #6c757d;
+}
+
+.breadcrumb-item.active {
+  color: #333333;
+}
+
+/* Minimalist Form Inputs */
+.contact-form .form-label {
+  font-size: 0.95rem;
+  font-weight: 500;
+  color: #111;
+  margin-bottom: 0.4rem;
+}
+
+.contact-form .form-control {
+  border: 1px solid #e0e0e0;
+  padding: 0.6rem 0.8rem;
+  transition: border-color 0.2s ease;
+}
+
+.contact-form .form-control:focus {
+  border-color: #333;
+  box-shadow: none; /* Removes the default blue bootstrap glow */
+}
+
+.line-height-large {
+  line-height: 1.8;
+}
+
+/* Floating WhatsApp Button (Matches the bottom right of your screenshot) */
+.whatsapp-float {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  background-color: #25d366;
+  width: 60px;
+  height: 60px;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  text-decoration: none;
+  transition: transform 0.3s ease;
+}
+
+.whatsapp-float:hover {
+  transform: scale(1.1);
+  background-color: #20bd5a;
+}

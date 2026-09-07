@@ -1,0 +1,189 @@
+/* ===== Luxe Footer ===== */
+
+.luxe-footer {
+  background-color: #1a1a1a;
+  color: #e8e6e1;
+  font-family: "Segoe UI", sans-serif;
+}
+
+.text-muted-light {
+  color: #a8a5a0 !important;
+  font-size: 0.92rem;
+}
+
+/* Newsletter strip */
+.luxe-footer-newsletter {
+  background-color: #232323;
+  padding: 2.25rem 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.luxe-footer-newsletter h5 {
+  color: #fff;
+  font-weight: 600;
+  letter-spacing: 0.3px;
+}
+
+.luxe-subscribe-form {
+  gap: 0.5rem;
+}
+
+.luxe-subscribe-form .form-control {
+  background-color: #1a1a1a;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  color: #fff;
+  padding: 0.6rem 1rem;
+}
+
+.luxe-subscribe-form .form-control::placeholder {
+  color: #8a8783;
+}
+
+.luxe-subscribe-form .form-control:focus {
+  box-shadow: none;
+  border-color: #c9a24b;
+}
+
+.luxe-btn {
+  background-color: #c9a24b;
+  color: #1a1a1a;
+  font-weight: 600;
+  padding: 0.6rem 1.5rem;
+  border: none;
+  white-space: nowrap;
+  transition: background-color 0.25s ease;
+}
+
+.luxe-btn:hover {
+  background-color: #b3893a;
+  color: #1a1a1a;
+}
+
+/* Main content */
+.luxe-footer-main {
+  padding: 3.5rem 0 2.5rem;
+}
+
+.luxe-brand {
+  font-family: "Playfair Display", "Georgia", serif;
+  font-size: 1.75rem;
+  color: #fff;
+  letter-spacing: 1px;
+}
+
+.luxe-heading {
+  color: #fff;
+  font-weight: 600;
+  font-size: 0.95rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.luxe-links li {
+  margin-bottom: 0.65rem;
+}
+
+.luxe-links a {
+  color: #a8a5a0;
+  text-decoration: none;
+  font-size: 0.92rem;
+  transition: color 0.2s ease, padding-left 0.2s ease;
+}
+
+.luxe-links a:hover {
+  color: #c9a24b;
+  padding-left: 3px;
+}
+
+.luxe-contact li {
+  color: #a8a5a0;
+  font-size: 0.92rem;
+  display: flex;
+  align-items: flex-start;
+  gap: 0.5rem;
+}
+
+.luxe-contact i {
+  color: #c9a24b;
+  margin-top: 3px;
+}
+
+/* Social icons */
+.luxe-social {
+  display: flex;
+  gap: 0.75rem;
+}
+
+.luxe-social a {
+  width: 38px;
+  height: 38px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  color: #e8e6e1;
+  transition: all 0.25s ease;
+}
+
+.luxe-social a:hover {
+  background-color: #c9a24b;
+  border-color: #c9a24b;
+  color: #1a1a1a;
+}
+
+/* Bottom bar */
+.luxe-footer-bottom {
+  background-color: #141414;
+  padding: 1.1rem 0;
+  font-size: 0.85rem;
+  color: #8a8783;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.luxe-payments {
+  display: flex;
+  gap: 0.9rem;
+  font-size: 1.2rem;
+  color: #a8a5a0;
+}
+
+/* ===== Responsive tweaks ===== */
+@media (max-width: 991.98px) {
+  .luxe-footer-main {
+    text-align: left;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .luxe-subscribe-form {
+    flex-direction: column;
+  }
+
+  .luxe-btn {
+    width: 100%;
+  }
+
+  .luxe-footer-newsletter,
+  .luxe-footer-main {
+    text-align: center;
+  }
+
+  .luxe-social {
+    justify-content: center;
+  }
+
+  .luxe-contact li {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .luxe-brand {
+    font-size: 1.5rem;
+  }
+
+  .luxe-footer-bottom .container {
+    text-align: center;
+  }
+}
