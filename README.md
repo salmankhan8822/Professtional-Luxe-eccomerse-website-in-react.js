@@ -4,6 +4,11 @@
 
 ---
 
+Live Demo
+https://eccomerse-website-1d29.vercel.app/
+
+---
+
 ## 📌 About the Project
 
 Luxe was built as a personal learning project to move beyond React tutorials and apply core concepts in a real, multi-page application. The goal was to design and build a complete clothing store experience — product listings, product details, a shopping cart, and a checkout flow — using only React and Bootstrap for styling.
