@@ -166,7 +166,9 @@ function CartProducts({
 
             {/* CHECKOUT */}
 
-            <button type="button" className="checkout-button" onClick={() => { alert("Checkout page coming soon");}}>CHECKOUT</button>
+            <button type="button" className="checkout-button" onClick={() => navigate("/Checkout", {
+                    state: { product: cartItems[0], quantity: totalItems, subtotal, shipping, total,},
+                  })}>CHECKOUT</button>
 
             {/* VIEW CART */}
 

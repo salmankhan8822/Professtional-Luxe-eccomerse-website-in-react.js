@@ -9,7 +9,7 @@ import ProductsList from "./SummerCollections/Components/ProductsList";
 import CartProducts from "./CartProductsss/CartProducts";
 import ProductDetails from "./ProductDetailsPage/ProductDetails";
 import Cart from "./CartDetails/Cart";
-import Checkout from "./Components/CheckOut/Checkout";
+import Checkout from "./Components/Checkout/Checkout";
 import OrderConfirmation from "./Components/OrderConfirmation/OrderConfirmation";
 import Footer from "./Components/Footer/Footer";
 import Contact from "./Components/Contact/Contact";
