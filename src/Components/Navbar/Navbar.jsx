@@ -1,6 +1,6 @@
 import "./Navbar.css";
 import { useState } from "react";
-import { useNavigate, useLocation } from "react-router-dom";
+import { useNavigate, useLocation, Link } from "react-router-dom";
 
 function Navbar({ searchInput = "", setSearchInput, onSearch, cartItems = [] }) {
   const location = useLocation();
@@ -32,9 +32,9 @@ function Navbar({ searchInput = "", setSearchInput, onSearch, cartItems = [] }) 
           <div className="container">
 
             {/* Logo */}
-            <a className="navbar-brand brand-logo me-4" href="/">
+            <Link className="navbar-brand brand-logo me-4" to="/">
               LUXÉ<span className="brand-dot">.</span>
-            </a>
+            </Link>
 
             {!isCheckOutPage && !orderConfirmation &&( 
               <>
@@ -48,57 +48,57 @@ function Navbar({ searchInput = "", setSearchInput, onSearch, cartItems = [] }) 
                   {/* Menu links */}
                   <ul className="navbar-nav main-menu mx-auto">
                     <li className="nav-item">
-                      <a className="nav-link active" href="/">Home</a>
+                      <Link className="nav-link active" to="/">Home</Link>
                     </li>
                     <li className="nav-item dropdown">
-                      <a  className="nav-link dropdown-toggle"  href="/summer" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      <Link  className="nav-link dropdown-toggle"  to="/summer" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                         Summer
-                      </a>
+                      </Link>
 
                       <ul className="dropdown-menu">
                         <li>
-                          <a className="dropdown-item" href="/summer?category=Luxury%20Lawn">Luxury Lawn</a>
+                          <Link className="dropdown-item" to="/summer?category=Luxury%20Lawn">Luxury Lawn</Link>
                         </li>
                         <li>
-                          <a className="dropdown-item" href="/summer?category=Printed%20Lawn">Printed Lawn</a>
+                          <Link className="dropdown-item" to="/summer?category=Printed%20Lawn">Printed Lawn</Link>
                         </li>
                         <li>
-                          <a className="dropdown-item" href="/summer?category=Embroidered%20Lawn">Embroidered Lawn</a>
+                          <Link className="dropdown-item" to="/summer?category=Embroidered%20Lawn">Embroidered Lawn</Link>
                         </li>
                       </ul>
                     </li>
 
                     <li className="nav-item dropdown">
-                      <a  className="nav-link dropdown-toggle"  href="/winter"  role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      <Link  className="nav-link dropdown-toggle"  to="/winter"  role="button" data-bs-toggle="dropdown" aria-expanded="false">
                         Winter
-                      </a>
+                      </Link>
 
                       <ul className="dropdown-menu">
                         <li>
-                          <a className="dropdown-item" href="/winter?category=Dhanak">Dhanak</a>
+                          <Link className="dropdown-item" to="/winter?category=Dhanak">Dhanak</Link>
                         </li>
                         <li>
-                          <a className="dropdown-item" href="/winter?category=Khaddar">Khaddar</a>
+                          <Link className="dropdown-item" to="/winter?category=Khaddar">Khaddar</Link>
                         </li>
                         <li>
-                          <a className="dropdown-item" href="/winter?category=Karandi">Karandi</a>
+                          <Link className="dropdown-item" to="/winter?category=Karandi">Karandi</Link>
                         </li>
                         <li>
-                          <a className="dropdown-item" href="/winter?category=Velvet%20Collection">Velvet Collection</a>
+                          <Link className="dropdown-item" to="/winter?category=Velvet%20Collection">Velvet Collection</Link>
                         </li>
                       </ul>
                     </li>
 
                     <li className="nav-item">
-                      <a className="nav-link" href="#">Ready to Wear</a>
+                      <Link className="nav-link" to="#">Ready to Wear</Link>
                     </li>
 
                     <li className="nav-item">
-                      <a className="nav-link" href="#">New Arrivals</a>
+                      <Link className="nav-link" to="#">New Arrivals</Link>
                     </li>
 
                     <li className="nav-item">
-                      <a className="nav-link sale-link" href="#">Sale</a>
+                      <Link className="nav-link sale-link" to="#">Sale</Link>
                     </li>
                   </ul>
 
